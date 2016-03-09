@@ -33,9 +33,6 @@ matrix:
         - export PATH=$HOME/bin:$PATH
     - python: 2.7
       env:
-        - MODULE=scipy
-    - python: 2.7
-      env:
         - MODULE=pandas
     - python: 2.7
       env:
